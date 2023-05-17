@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>Luminarias LED</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      /*text-align: center;*/
+      position: absolute;
+      top: 1500px; 
+      left: 1px;
+
+    }
+
+    /* Estilos de sección de luminarias */
+    .luminarias-section {
+      margin-top: 50px;
+    }
+    .luminarias-section h2 {
+      margin-bottom: 20px;
+    }
+    .luminarias-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .luminaria-card {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    .luminaria-card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .luminaria-card h3 {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Luminarias LED</h1>
+
+    <section class="luminarias-section">
+      <h2>Luminarias de Calle</h2>
+      <div class="luminarias-grid">
+        <div class="luminaria-card">
+          <img src="calle1.jpg" alt="Luminaria de calle 1">
+          <h3>Luminaria de Calle 1</h3>
+          <p>Descripción de la luminaria de calle 1.</p>
+        </div>
+        <div class="luminaria-card">
+          <img src="calle2.jpg" alt="Luminaria de calle 2">
+          <h3>Luminaria de Calle 2</h3>
+          <p>Descripción de la luminaria de calle 2.</p>
+        </div>
+        <!-- Puedes agregar más luminarias de calle aquí -->
+      </div>
+    </section>
+
+    <section class="luminarias-section">
+      <h2>Luminarias de Reflectores</h2>
+      <div class="luminarias-grid">
+        <div class="luminaria-card">
+          <img src="reflectores1.jpg" alt="Luminaria de reflectores 1">
+          <h3>Luminaria de Reflectores 1</h3>
+          <p>Descripción de la luminaria de reflectores 1.</p>
+        </div>
+        <div class="luminaria-card">
+          <img src="reflectores2.jpg" alt="Luminaria de reflectores 2">
+          <h3>Luminaria de Reflectores 2</h3>
+          <p>Descripción de la luminaria de reflectores 2.</p>
+        </div>
+        <!-- Puedes agregar más luminarias de reflectores aquí -->
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>

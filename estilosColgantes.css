@@ -1,0 +1,94 @@
+header{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+nav ul{
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+}
+nav li{
+    margin-top: 30px; 
+    display: inline-block; 
+    margin-right: 100px;
+   
+}
+a{   
+    text-decoration: none; 
+    color: black;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    background-size: cover; 
+}
+/*h2{
+    margin-top: 5%;  
+    width: 50%;
+    float: none;
+    color: aliceblue;    
+}*/
+p{  
+    margin-bottom: 5%;
+    width: 50%;
+    float: none;
+    color: aliceblue;
+      
+}
+.container{
+    color: black;
+}
+.producto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.8rem 0;
+    background-color: #0068b7;
+    color: aliceblue;
+    font-size: large;
+}
+.prod1{
+    margin-left: 50%;
+}
+img{
+    max-width: 400px; /*img original de 800x800px*/
+    margin right: 400px;
+    border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.titulo{
+    border-bottom: 2px solid;
+    margin-bottom: 0.17rem;
+    width: 60%;
+    border-bottom-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fila{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+   font-weight: bold;
+}
+tr:nth-child(2n){ /*odd selecciona las filas impares*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: grey;
+}
+td{
+    text-align: center;
+}
+footer{
+
+    text-decoration: none; 
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    height: 100px;
+    border-top: 2px solid;
+    border-color: black;
+}
