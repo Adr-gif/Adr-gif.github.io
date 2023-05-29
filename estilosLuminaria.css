@@ -8,13 +8,11 @@ nav ul{
     margin: 0;
     padding: 0;
     text-align: right;
-
 }
 nav li{
     margin-top: 30px; 
     display: inline-block; 
-    margin-right: 100px;
-   
+    margin-right: 100px;  
 }
 a{   
     text-decoration: none; 
@@ -27,18 +25,11 @@ body {
     background-color: aliceblue;
     background-size: cover; 
 }
-/*h2{
-    margin-top: 5%;  
-    width: 50%;
-    float: none;
-    color: aliceblue;    
-}*/
 p{  
     margin-bottom: 5%;
     width: 50%;
     float: none;
-    color: aliceblue;
-      
+    color: aliceblue;     
 }
 .container{
     color: black;
@@ -57,24 +48,22 @@ img{
     max-width: 400px; /*img original de 800x800px*/
     margin right: 400px;
     border-width: 2px;
-  border-style: solid;
-  border-color: black;
+    border-style: solid;
+    border-color: black;
 }
-
 .titulo{
     border-bottom: 2px solid;
     margin-bottom: 0.17rem;
-    width: 65%;
+    width: 100%;
     border-bottom-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .fila{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    color: black;
    font-weight: bold;
 }
-tr:nth-child(2n){ /*odd selecciona las filas impares*/
+tr:nth-child(2n){ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 background-color: grey;
 }
@@ -82,7 +71,6 @@ td{
     text-align: center;
 }
 footer{
-
     text-decoration: none; 
     color: aliceblue;
     font-size: 20px;

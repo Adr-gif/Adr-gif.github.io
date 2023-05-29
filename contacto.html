@@ -2,8 +2,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Compañia</title>
+    <title>Contacto</title>
     <link rel="stylesheet" href="estilosCont.css"> 
+    <script type="text/javascript" src="javasection.js"></script>
+    <link rel="icon" href="ledicono.ico">
 </head>
 <body>
     <header>
@@ -17,29 +19,66 @@
     </header>
     <div class="container">
 <h2>Datos de contacto</h2>
-<ul>
-    <h4> Telefono:</h4>
-    <li class=" numero_telefono">  
-       +542664555555
-    </li>
-    <h4> Whatsapp:</h4>
-    <li class=" numero_whatsapp">
-        +542664555550 
-     </li>
-     <h4> Email:</h4>
-     <li class="email" id="correo">proled@proled.com.ar</li>
-     <h4> Direccion:</h4>
-     <li class="direccion">
-        Ruta N°7 - Km 0 - San Luis Capital - Argentina   
-     </li>
-     <h4> Horarios:</h4>
-     <li class="horarios">
- 
-            <span class="horario_atencion">
-                De 08:00 a 18:00: Lun, Mar, Mie, Jue, Vie.
+<div class="formulario">
+    <form name="campos" id="campos" class="form">
+        <label for="nombre" class="form-label">Nombre: </label>
+        <input type="text" name="name" class="form-input" placeholder="Ingrese su nombre aqui" id="name">
+        
+        <label for="apellido" class="form-label">Apellido: </label>
+        <input type="text" name="surname" class="form-input" placeholder="Ingrese su apellido aqui" id="surname">
+        
+        <label for="telefono" class="form-label">Telefono: </label>
+        <input type="text" name="tel" class="form-input" placeholder="Ingrese su telefono aqui" id="tel">
+        
+        <label for="Email" class="form-label">Email: </label>
+        <input type="text" name="email" class="form-input" placeholder="Ingrese un email valido aqui" id="email">
+        
+        <label for="area" class="form-label">Comentarios: </label>
+        <textarea name="areaTexto" class="form-textarea" id="areaTexto" placeholder="Escriba su comentario aqui" cols="30" rows="10"></textarea>
+        
+        <input type="submit" class="button-submit" name="enviar" value="Enviar" onclick="return carga()">
+        
+        <input type="button" class="button-limpiar" value="Limpiar" onclick="reseteando()"> 
+    </form>
+</div>
+<div id="datosEnviados"></div>
+<div id="errorMensaje"></div> 
+</div>
+<footer>
+    <ul>
+        <li>
+          <div>
+            <h4>Telefono:</h4>
+            <span class="numero_telefono">+542664555555</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Whatsapp:</h4>
+            <span class="numero_whatsapp">+542664555550</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Email:</h4>
+            <span class="email" id="correo">proled@proled.com.ar</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Direccion:</h4>
+            <span class="direccion">Ruta N°7 - Km 0 - San Luis Capital - Argentina</span>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h4>Horarios:</h4>
+            <span class="horarios">
+              <span class="horario_atencion">De 08:00 a 18:00 Hs: Lun, Mar, Mie, Jue y Vie.</span>
             </span>
-     </li>  
-</ul>
-</div> 
+          </div>
+        </li>
+      </ul>
+</footer> 
 </body>
 </html>

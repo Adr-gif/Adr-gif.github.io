@@ -1,23 +1,22 @@
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <title>Seleccion de Sistemas de Iluminacion Vial LED</title>
     <link rel="stylesheet" href="estilos.css"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="ledicono.ico">
 </head>
-
 <body>
     <header>
     <nav>
         <ul>
             <li><a href="MiWeb.html">Home</a></li>
-            <li><a href="compañia.html" target="_blank">Compañia</a></li> <!--para que vaya a otra pestaña-->
+            <li><a href="compañia.html" target="_blank">Compañia</a></li>
             <li><a href="contacto.html" target="_blank">Contacto</a></li>  
         </ul>
     </nav> 
     </header>
-    <div class="container">
-        
+    <div class="container">      
        <!-- <h1>LUMINARIAS LED</h1>-->
         <section class="luminarias-section">
                 <div class="luminaria-card">
@@ -25,8 +24,7 @@
                     <img src="luminaria.png" alt=" Boton de seleccion de seccion">
                     <h3>Luminarias</h3>
                     </a>
-                </div>
-           
+                </div>      
         </section>
         <section class="luminarias-section">
             <!--<h2>Reflectores</h2>-->
@@ -35,11 +33,9 @@
                     <a href="reflectores.html" target="_blank">
                     <img src="reflectores.png" alt=" Boton de seleccion de seccion">
                     <h3>Reflectores</h3>
-                    </a>
-                   
+                    </a>                  
                 </div>
             </div>
-
         </section>
         <section class="luminarias-section">
                        <div class="luminarias-grid">
@@ -47,18 +43,15 @@
                     <a href="colgantes.html" target="_blank"> 
                     <img src="colgante.png" alt=" Boton de seleccion de seccion">
                     <h3>Colgantes</h3>
-                    </a>
-                 
-                </div>
-            
+                    </a>     
+                </div> 
             </div>
         </section>
         <section class="luminarias-section">
-
             <div class="luminarias-grid">
                 <div class="luminaria-card">
                     <a href="farolas.html" target="_blank"> 
-                    <img src="farolav2.png" alt=" Boton de seleccion de seccion">
+                    <img src="farola.png" alt=" Boton de seleccion de seccion">
                     <h3>Farolas</h3>
                     </a>
                 
@@ -66,19 +59,19 @@
             </div>
         </section>
     </div>
-
-
+    <div class="carrusel">  
+        <img src="carro/1.jpg" alt="Imagen del carrusel" id="foto">
+        <br>
+        <input type="button" value="Anterior" onclick="anterior()" id="Anterior">
+        <input type="button" value="Siguiente" onclick="siguiente()" id="Siguiente">
+    </div>
 <footer>
     <nav>
         <ul>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Proyectos</a></li>
-            <li><a href="#">Soporte</a></li> 
+            <li><a href="contacto.html" target="_blank">Contacto</a></li> 
         </ul>
     </nav> 
-
 </footer>
+    <script type="text/javascript" src="javacarrusel.js"></script>
 </body>
-
-
 </html>

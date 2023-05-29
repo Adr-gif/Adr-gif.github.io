@@ -12,7 +12,6 @@ nav li{
     margin-top: 30px; 
     display: inline-block; 
     margin-right: 100px;
-   
 }
 a{   
     text-decoration: none; 
@@ -25,19 +24,73 @@ body {
     background-image: url("carretera.jpg");
     background-size: cover; 
 }
-/*h2{
+h2{
     margin-top: 5%;  
     width: 50%;
+    margin-left: 50px;
     float: none;
     color: aliceblue;    
-}*/
+}
 p{  
     margin-bottom: 5%;
     width: 50%;
     float: none;
-    color: aliceblue;
-      
+    color: aliceblue;  
 }
 .container{
     color: white;
 }
+/* Estilos para el formulario */
+.formulario {
+    width: 500px;
+    margin-left: 50px;
+  }
+/* Estilos para las etiquetas */
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  } 
+ /* Estilos para los campos de entrada de texto */
+  .form-input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+/* Estilos para el área de texto */
+  .form-textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  } 
+/* Estilos para los botones */
+  .button-submit,
+  .button-limpiar {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  /* Estilos para el párrafo de confirmación */
+  .formulario p {
+    margin-top: 20px;
+  }
+  /*uso flex para el footre*/
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+  }
+  footer li {
+    flex-basis: 33.33%; /* Divide el espacio en tres columnas iguales */
+  }
+  footer li div {
+    margin-bottom: 10px; /* Espacio entre los elementos */
+  }
+
+
