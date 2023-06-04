@@ -1,14 +1,14 @@
 function carga() {
-    // Obtener los valores de los campos
+  
     var name = document.getElementById("name").value;
     var surname = document.getElementById("surname").value;
     var tel = document.getElementById("tel").value;
     var email = document.getElementById("email").value;
     var areaTexto = document.getElementById("areaTexto").value;
     var errorMensaje = document.getElementById("errorMensaje");
-    // Validar los campos
+  
     if (name === "" || surname === "" || tel === "" || email === "" || areaTexto === "") {
-      // Mostrar mensaje de error si algún campo está vacío
+      
       var errorMensaje = document.getElementById("datosEnviados");
       errorMensaje.innerHTML = "Por favor, complete todos los campos obligatorios.";
       errorMensaje.style.color = "red";
